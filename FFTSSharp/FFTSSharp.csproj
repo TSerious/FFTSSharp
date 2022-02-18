@@ -3,9 +3,10 @@
   <PropertyGroup>
     <TargetFrameworks>
 		netstandard2.0;
-		netcoreapp2.0;
+		netcoreapp3.1;
 		net40;
-		net46
+		net46;
+		net48
 	</TargetFrameworks>
     <Version>0.0.2</Version>
     <Authors>PetterPet</Authors>
@@ -22,7 +23,7 @@
     <PackageIcon>logo.png</PackageIcon>
     <PackageIconUrl />
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
