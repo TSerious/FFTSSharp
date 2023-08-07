@@ -3,8 +3,7 @@
   <PropertyGroup>
     <TargetFrameworks>
 		netstandard2.0;
-		netcoreapp3.1;
-		net46;
+		net6.0;
 		net48
 	</TargetFrameworks>
     <Version>0.0.2</Version>
