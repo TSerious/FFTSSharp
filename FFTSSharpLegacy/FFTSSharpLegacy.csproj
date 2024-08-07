@@ -2,14 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>
-		netstandard1.3;
-		netstandard1.4;
-		netstandard1.5;
-		netstandard1.6;
-		net20;
-		net35;
-		netcoreapp1.0;
-		netcoreapp1.1
+		netstandard2.1
 	</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>PetterPet.FFTSSharpLegacy</PackageId>
